@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js Data Entry</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main>
+        <div class="left">
+            <div class="container">
+                <h1>Enter your data</h1>
+                <div class="form-container">
+                    <form action="#" id="dataForm">
+                        <input type="text" name="name" id="the-name" placeholder="Enter the name" required>
+                        <input type="number" name="number" id="the-number" placeholder="Enter the number" required>
+                        <button type="submit" id="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="right" id="table-container">
+            <table id="dataTable">
+                <thead>
+                    <tr>
+                        <th>Index</th>
+                        <th>Name</th>
+                        <th>Number</th>
+                        <th>Actions</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
